@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap ");
+
+:root {
+  --font-1: "Eczar";
+  --font-2: "Work sans";
+}
+
+* {
+  font-family: var(--font-2);
+}
+
+body {
+  background-color: #ffeed9;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  z-index: 999;
+}
+
+.nav-color {
+  background-color: #ffffff;
+  transition: all ease-in-out 0.5s;
+}
+
+.bg-transparent {
+  transition: all ease-in 0.5s;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  margin-left: 0;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+button .button-lg-dark {
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.me-image {
+  position: relative;
+  top: 0px;
+  left: 90px;
+}
+img.my-img {
+  width: 700px;
+  position: absolute;
+  margin-bottom: 0;
+}
+
+#hero {
+  background-color: #ffeed9;
+  height: 83vh;
+  width: 100%;
+}
+
+.halo h1 {
+  font-family: var(--font-1);
+  font-size: 64px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.halo p {
+  width: 40%;
+  font-size: 24px;
+  padding: 10px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding-right: 5px;
+  border-radius: 10px;
+  background: #ffddbf;
+}
+
+button.button-lg-dark {
+  width: 270px;
+  height: 70px;
+  background-color: #4e5e80;
+  border: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  border-radius: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+button.button-lg-dark:hover {
+  background-color: #7a8ca5;
+  scale: 0.98;
+}
+button.btn-2 {
+  width: 270px;
+  height: 70px;
+  border: 4px solid #4e5e80;
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: 600;
+  color: #4e5e80;
+  border-radius: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+button.btn-2:hover {
+  background-color: #4e5e80;
+  color: white;
+  scale: 0.98;
+}
+
+.hero-contain {
+  position: relative;
+  margin-top: 150px;
+}
+
+#work {
+  background-color: #ffddbf80;
+}
+
+.my-work {
+  top: 0;
+}
+
+.tag-work h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 64px;
+  font-family: var(--font-1);
+}
+
+.custom-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white; /* Background color from the screenshot */
+  border-radius: 15px;
+}
+.custom-card .text-section {
+  max-width: 70%; /* Adjust to ensure the text doesn't overlap with the image */
+}
+.custom-card h1 {
+  font-size: 2rem;
+}
+.custom-card p {
+  font-size: 24px;
+}
+.custom-card img {
+  width: 35%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.button-blue {
+  color: #2e56ad;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.button-blue:hover {
+  color: #5e84d6;
+}
+
+.text-section {
+  padding: 30px;
+}
+
+.card-title {
+  padding-bottom: 20px;
+}
+
+.card-text {
+  font-weight: 500;
+  color: rgb(61, 60, 60);
+}
+
+.testimonial-card {
+  background-color: #ffeed9;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  filter: invert(100%); /* Blacken the carousel control icons */
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #000;
+}
+
+h1.my-carousel-tag {
+  font-family: var(--font-1);
+}
+
+p.carousel-info-tag {
+  font-weight: 600;
+}
+
+.testimonial-card p {
+  font-size: 18px;
+}
+
+.about h2 {
+  font-family: var(--font-1);
+  font-size: 64px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.about p {
+  width: 90%;
+  font-size: 20px;
+  padding: 12px;
+  line-height: 40px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  padding-right: 5px;
+  border-radius: 10px;
+}
+
+#about {
+  background: #ffddbf;
+}
+
+.custom-section {
+  background-color: #ffdbbf;
+  padding: 60px 0;
+  text-align: center;
+  position: relative;
+}
+
+.ill-image {
+  position: relative;
+  top: 48px;
+  left: 90px;
+}
+
+img.custom-img {
+  width: 700px;
+  bottom: 1px;
+  position: absolute;
+  margin-bottom: 0;
+}
+
+button.btn-3 {
+  margin-top: 30px;
+  width: 270px;
+  height: 70px;
+  border: 4px solid #4e5e80;
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: 600;
+  color: #4e5e80;
+  border-radius: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+button.btn-3:hover {
+  background-color: #4e5e80;
+  color: white;
+  scale: 0.98;
+}
+
+h2.last {
+  width: 100%;
+}
+
+.social-icons {
+  position: relative;
+  right: 0;
+  margin-top: 20px;
+}
+.social-icons a {
+  position: relative;
+  left: 1200px;
+  bottom: 80px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+.social-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+.all-card {
+  z-index: 100;
+}
+
+.hero-contain {
+  z-index: 3;
+}
